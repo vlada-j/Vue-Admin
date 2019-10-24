@@ -1,0 +1,37 @@
+{
+  "name": "vue-admin",
+  "version": "0.1.0",
+  "author": "Vlada Janosevic vladajanosevic@gmail.com",
+  "scripts": {
+    "serve": "vue-cli-service serve --port 4444",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuetify": "^1.5.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "json-server-relationship": "^0.14.5",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "engines": {
+    "node": ">= 8.10.x",
+    "npm": ">= 5.6.0"
+  }
+}
